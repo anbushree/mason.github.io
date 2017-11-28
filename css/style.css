@@ -1,0 +1,271 @@
+/*================================================
+            DEFAULT VALUES:
+
+            Font Family             : Roboto Condensed
+            
+            Greenish Blue           : #34c6d3       (Buttons, Icons, Links, Lines & Backgrounds)
+            Steel Gray              : #41464b       (Headings)
+            Blue Bayoux             : #64707b       (Paragraphs)
+            White                   : #fff          (Text with Black Backgrounds)
+            Black                   : #000
+
+================================================*/
+
+/* General CSS */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Roboto Condences", sans-serif;
+
+}
+
+/*================================================
+                      HOME
+================================================*/
+
+#home {
+    height: 100%;
+}
+
+#home-hero-cover {
+    height: 100%;
+    background-image: url("../img/IMG_1520.JPG");
+}
+
+#home-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    /* text-align: center; */
+}
+
+#home-heading h3 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 20px 0px 20px 0px;
+    text-transform: uppercase;
+}
+
+/*================================================
+                PARALLAX (Generic)
+================================================*/
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/*================================================
+                BUTTONS (Generic)
+================================================*/
+
+.btn-general {
+    border-color: #fff;
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px 12px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn-white {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    background-color: #fff;
+    color: #41464b;
+}
+
+.btn-blue {
+    border-color: #34c6d3;
+    color: #34c6d3;
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+    background-color: #34c6d3;
+    color: #fff;
+
+}
+
+/*================================================
+                      ANIMATE
+================================================*/
+
+#home-hero-cover,
+#home-heading,
+#home-btn {
+    animation-duration: .5s;
+}
+
+#home-hero-cover {
+    animation-delay: .1s;
+}
+
+#home-heading {
+    animation-delay: .5s;
+}
+
+#home-btn {
+    animation-delay: 1s;
+}
+
+/*================================================
+                CONTENT (Generic)
+================================================*/
+
+.content-box {
+    padding: 40px 0 20px 0;
+}
+
+.content-title h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.content-title-underline {
+    width: 30px;
+    height: 3px;
+    background-color: #34c6d3;
+    margin: 0 auto 30px auto;
+
+}
+
+/*================================================
+                    GREETINGS
+================================================*/
+
+#greetings-bg-diagonal {
+    width: 60%;
+    height: 700px;
+    float: right;
+    background-image: url(../img/IMG_1052.JPG);
+    border-left: 200px solid #fff;
+    border-top: 700px solid transparent
+}
+
+#greetings-content-box {
+    float: left;
+    height: 700px;
+}
+
+#greetings-content-box-outer {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#greetings-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#greetings .content-title h3 {
+    text-align: left;
+}
+
+#greetings .content-title-underline {
+    margin: 0 0 30px 0;
+}
+/*================================================
+                    SOCIAL
+================================================*/
+
+.social-list {
+    padding: left;
+}
+
+.social-list li {
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.social-icon {
+    font-size: 17px;
+}
+
+.icon-gray i {
+    color: #64707b;
+}
+
+.social-icon i :hover {
+    color: #34c6d3;
+}
+
+/*================================================
+                   CONTACT
+================================================*/
+footer {
+    background-color: #87dde5;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0,0,0, 0.1);
+}
+
+#contact-left h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#contact-left p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#contact-info {
+    background-image: url("../img/img/img/world-map.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
